@@ -36,9 +36,14 @@ def entry_path(out_dir: str) -> str:
     return os.path.join(out_dir, "entry.txt")
 
 
+def output_dir() -> str:
+    """Resolve the output directory from the environment or default."""
+    return os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
+
+
 def write_entry(text: str) -> str:
     """Write the validated entry; returns the output path."""
-    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
+    out_dir = output_dir()
     try:
         os.makedirs(out_dir, exist_ok=True)
         path = entry_path(out_dir)
