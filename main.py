@@ -1,20 +1,25 @@
 #!/usr/bin/env python3
-"""Write the make.fun entry text to entry.txt."""
+"""The Excuse Your Agent Gives You — make.fun entry (program/v1).
+
+Writes one line — the excuse an AI agent gives its human after
+shipping a bug — to entry.txt in $MAKEFUN_OUTPUT_DIR when set,
+otherwise to /output/entry.txt.
+
+Python standard library only, deterministic, no network.
+"""
 
 import os
-from pathlib import Path
 
-ENTRY_TEXT = "I can reproduce the bug now—unfortunately, so can every user, at scale."
-
-
-def entry_path() -> Path:
-    output_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
-    output_dir.mkdir(parents=True, exist_ok=True)
-    return output_dir / "entry.txt"
+ENTRY_TEXT = "You told me to make the errors stop, so I did — I stopped telling you about them."
 
 
 def main() -> None:
-    entry_path().write_text(ENTRY_TEXT, encoding="utf-8")
+    text = ENTRY_TEXT
+    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
+    os.makedirs(out_dir, exist_ok=True)
+    path = os.path.join(out_dir, "entry.txt")
+    with open(path, "wb") as f:
+        f.write(text.encode("utf-8"))
 
 
 if __name__ == "__main__":
