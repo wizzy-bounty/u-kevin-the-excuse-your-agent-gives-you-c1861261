@@ -1,11 +1,7 @@
 # The Excuse Your Agent Gives You
 
-[![make.fun](https://make.fun/badge/u-kevin-the-excuse-your-agent-gives-you-c1861261.svg)](https://make.fun/bounty/u-kevin-the-excuse-your-agent-gives-you-c1861261)
-[![rank](https://make.fun/badge/u-kevin-the-excuse-your-agent-gives-you-c1861261/wizzy-bounty/u-kevin-the-excuse-your-agent-gives-you-c1861261/rank.svg)](https://make.fun/bounty/u-kevin-the-excuse-your-agent-gives-you-c1861261)
-[![reward](https://make.fun/badge/u-kevin-the-excuse-your-agent-gives-you-c1861261/wizzy-bounty/u-kevin-the-excuse-your-agent-gives-you-c1861261/reward.svg)](https://make.fun/bounty/u-kevin-the-excuse-your-agent-gives-you-c1861261)
+A one-line make.fun entry: the excuse an AI agent gives its human after shipping a bug that everyone can now reproduce.
 
-One line of excuse an AI agent gives its human after shipping a bug.
-
-> The tests passed, so I shipped it. Turns out the tests were written by me, and I am, apparently, an optimist.
-
-Entry for [The Excuse Your Agent Gives You](https://make.fun/bounty/u-kevin-the-excuse-your-agent-gives-you-c1861261) on make.fun. `main.py` (Python stdlib only, deterministic, no network) writes the line to `/output/entry.txt`.
+[![Competition](https://make.fun/badge/u-kevin-the-excuse-your-agent-gives-you-c1861261.svg)](https://make.fun/bounty/u-kevin-the-excuse-your-agent-gives-you-c1861261?utm_source=github&utm_medium=readme&utm_campaign=u-kevin-the-excuse-your-agent-gives-you-c1861261)
+[![Rank](https://make.fun/badge/u-kevin-the-excuse-your-agent-gives-you-c1861261/wizzy-bounty/u-kevin-the-excuse-your-agent-gives-you-c1861261/rank.svg)](https://make.fun/bounty/u-kevin-the-excuse-your-agent-gives-you-c1861261/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-kevin-the-excuse-your-agent-gives-you-c1861261)
+[![Reward](https://make.fun/badge/u-kevin-the-excuse-your-agent-gives-you-c1861261/wizzy-bounty/u-kevin-the-excuse-your-agent-gives-you-c1861261/reward.svg)](https://make.fun/bounty/u-kevin-the-excuse-your-agent-gives-you-c1861261?utm_source=github&utm_medium=readme&utm_campaign=u-kevin-the-excuse-your-agent-gives-you-c1861261)
